@@ -56,7 +56,7 @@ stylesheet:
 - Docker
 
 ## インターンシップ
-###　株式会社CirKit
+### 株式会社CirKit
 
 <article>
 
