@@ -1,6 +1,6 @@
 # resume
 
-# Installation
+## Installation
 
 ```bash
 pnpm i
