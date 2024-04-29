@@ -1,0 +1,31 @@
+.markdown-body {
+  font-size: 11px;
+  a {
+    text-decoration: none;
+  }
+  h1 {
+    --pico-font-size: 1.5rem;
+    --pico-typography-spacing-top: 2rem;
+  }
+  h2 {
+    --pico-font-size: 1.4rem;
+    --pico-typography-spacing-top: 1.9rem;
+  }
+  h3 {
+    --pico-font-size: 1.3rem;
+    --pico-typography-spacing-top: 1.8rem;
+  }
+  h4 {
+    --pico-font-size: 1.2rem;
+    --pico-typography-spacing-top: 1.7rem;
+  }
+  h5 {
+    --pico-font-size: 1.1rem;
+    --pico-typography-spacing-top: 1.6rem;
+  }
+  ul {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+}
