@@ -1,38 +1,27 @@
 .markdown-body {
   font-size: 11px;
-  a {
-    text-decoration: none;
-  }
   h1 {
-    --pico-font-size: 1.5rem;
-    --pico-typography-spacing-top: 2rem;
-  }
-  h2 {
     --pico-font-size: 1.4rem;
-    --pico-typography-spacing-top: 1.9rem;
-  }
-  h3 {
-    --pico-font-size: 1.3rem;
     --pico-typography-spacing-top: 1.8rem;
   }
-  h4 {
+  h2 {
     --pico-font-size: 1.2rem;
-    --pico-typography-spacing-top: 1.7rem;
-  }
-  h5 {
-    --pico-font-size: 1.1rem;
     --pico-typography-spacing-top: 1.6rem;
   }
-  ul {
-    display: flex;
-    gap: 3rem;
-    flex-wrap: wrap;
+  h3 {
+    --pico-font-size: 1.0rem;
+    --pico-typography-spacing-top: 1.4rem;
+  }
+  h4 {
+    --pico-font-size: 0.8rem;
+    --pico-typography-spacing-top: 1.2rem;
+  }
+  h5 {
+    --pico-font-size: 0.6rem;
+    --pico-typography-spacing-top: 1rem;
   }
 }
 
-.basic-info {
-  display: flex;
-  column-gap: 2.5rem;
-  justify-content: center;
-  align-items: center;
+.page-break {
+  page-break-after: always;
 }
